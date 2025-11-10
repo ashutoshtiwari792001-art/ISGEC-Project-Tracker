@@ -1,1 +1,1 @@
-module.exports = {content:["./index.html","./src/**/*.{js,ts,jsx,tsx}"],theme:{extend:{}},plugins:[]}
+module.exports={content:["./index.html","./src/**/*.{js,jsx,ts,tsx}"],theme:{extend:{colors:{isgecBlue:"#0B62A3",isgecRed:"#D32F2F"}}},plugins:[]}

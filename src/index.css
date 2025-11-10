@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root{--brand:#0B62A3;--accent:#D32F2F}
+body{@apply text-slate-900}
+.card{@apply bg-white rounded-xl shadow p-4}
+.input{@apply border rounded px-3 py-2 w-full}
+.btn{@apply bg-isgecBlue text-white px-4 py-2 rounded hover:opacity-95 disabled:opacity-50}
+.label{@apply text-xs uppercase text-slate-500}
+.title-anim{background:linear-gradient(90deg,#0b62a3,#2563eb,#0b62a3);-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200% 100%;animation:shine 5s linear infinite}
+@keyframes shine{0%{background-position:0 0}100%{background-position:200% 0}}
