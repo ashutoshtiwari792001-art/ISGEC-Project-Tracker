@@ -1,4 +1,4 @@
-export const API_BASE = "https://script.google.com/macros/s/AKfycbxPYhJneZhk0pMwE4X1nDH9pV70MPBHl9qJaL1aWZ3H4E5BZj__N86WZyJVpEiyY9Eq/exec";
+export const API_BASE = "https://script.google.com/macros/s/AKfycbwAOykiO-B37VEcJ6i3etdI5rtPmn_LdmZBJCnqJmSEU9Z3B1mM4HVQCVHScl-IXwme/exec";
 export const API_KEY = "ISGEC2025";
 
 export async function getHomeSummary(month){
